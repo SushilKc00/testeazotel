@@ -7,7 +7,7 @@ import fs from "fs";
 
 const app = express();
 app.use("/static", express.static(__dirname));
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 8020;
 
 const createReactApp = async (location) => {
   const reactApp = ReactDOMServer.renderToString(
@@ -28,6 +28,6 @@ app.get("*", async (req, res) => {
   res.status(200).send(indexHtml);
 });
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`);
 });
