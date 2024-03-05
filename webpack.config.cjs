@@ -12,7 +12,7 @@ const serverConfig = {
   mode: "development",
   entry: "./src/server/server.jsx",
   output: {
-    path: path.join(__dirname, "/build"),
+    path: path.join(__dirname, "/builds"),
     filename: "server.cjs",
   },
   module: {
@@ -53,7 +53,7 @@ const clientConfig = {
   mode: "development",
   entry: "./src/client/index.js",
   output: {
-    path: path.join(__dirname, "/build"),
+    path: path.join(__dirname, "/builds"),
     publicPath: "/static",
     filename: "client.js",
   },
