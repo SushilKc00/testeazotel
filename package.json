@@ -9,7 +9,7 @@
     "clean:windows": "rd /s /q dist",
     "clean": "rm -rf ./dist",
     "build": "webpack --config webpack.config.cjs",
-    "start": "npm run build && node ./build/server.cjs"
+    "start": "node ./builds/server.cjs"
   },
   "keywords": [],
   "author": "",

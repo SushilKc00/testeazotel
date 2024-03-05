@@ -1,0 +1,104 @@
+.reach-section {
+  padding: 3rem 0;
+}
+
+.city-card {
+  display: flex;
+  justify-content: center;
+}
+
+.client-card {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.reach {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  /* width: 80%;
+  height: 125px; */
+  width: 70%;
+  height: 75px;
+  background: #193971;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.223), 24px 24px 0px rgba(0, 0, 0, 0.233);
+  border-radius: 10px;
+
+  cursor: pointer;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.reach:hover {
+  color: #FFFFFF;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .reach-section {
+    padding: 3rem 0;
+  }
+
+  .city-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .client-card {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .reach {
+    font-size: 15px;
+    height: 65px;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  .reach-section {
+    padding: 0;
+  }
+
+  .country-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .city-card {
+    margin-bottom: 3rem;
+
+  }
+
+  .client-card {
+    display: flex;
+    justify-content: center;
+  }
+
+  .reach {
+    width: 11rem;
+    height: 4rem;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.223), 17px 17px 0px rgba(0, 0, 0, 0.233);
+
+  }
+
+  .reach:hover {
+    color: #FFFFFF;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+
+}
