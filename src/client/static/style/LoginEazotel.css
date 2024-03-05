@@ -1,0 +1,337 @@
+.logineazotel {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 96vh;
+  padding: 4rem 8rem;
+}
+
+.loginmain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  /* border: 1px solid #0A3A75; */
+  /* border-radius: 15px; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #0A3A75;
+  /* padding: 4rem; */
+  overflow: hidden;
+  /* box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.75); */
+}
+
+.loginLeft {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5rem;
+  /* color: #0A3A75; */
+  text-align: center;
+  height: 100%;
+  background-color: #F1F1F1;
+
+}
+
+.loginmain h1 {
+  font-weight: 700;
+  /* color: #0A3A75; */
+  /* color: #FFFFFF; */
+  /* font-size: 25px; */
+}
+
+
+.loginmain p {
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+
+
+.loginRight {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
+  background-color: #FD5C01;
+
+}
+
+
+.login-content .login-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 10px;
+  padding: 30px 45px;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.logineazotel .createwebsitebutton {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  box-sizing: border-box;
+  width: 100%;
+  height: 45px;
+  background: #193971;
+  border: 0;
+  border-radius: 12px;
+}
+
+.logineazotel .createwebsitebutton:hover {
+  /* background: #FD5C01; */
+  background: #FFFFFF;
+  border: 1px solid #193971;
+  color: #193971;
+}
+
+.logineazotel .button:hover {
+  background: #FD5C01;
+  transition: 0.1s;
+}
+
+.logineazotel .input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 6px 0;
+  position: relative;
+}
+
+.logineazotel input {
+  width: 100%;
+  height: 2.5rem;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  padding: 1rem;
+  color: #193971;
+  border: 1px solid #193971;
+  border-bottom: 3px solid #193971;
+  border-left: 3px solid #193971;
+}
+
+.logineazotel .image {
+  display: contents;
+}
+
+.logineazotel .eye-icon {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translateY(-50%);
+  color: #aaa;
+  cursor: pointer;
+}
+
+
+
+.logineazotel img {
+  width: 60%;
+
+}
+
+.logineazotel .sub {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.logineazotel .dont {
+  color: #0A3A75;
+  text-decoration: none;
+  font-weight: 500;
+
+}
+
+.logineazotel .radio {
+  margin-top: 1px;
+  height: .9rem;
+  width: .9rem;
+  color: #1A1A1A;
+  background-color: #1A1A1A;
+}
+
+.logineazotel .redio-data {
+  display: flex;
+  justify-content: center;
+}
+
+.logineazotel .remember {
+  font-size: 1rem;
+  color: #0A3A75;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 4px;
+}
+
+.logineazotel .forget {
+  font-size: 13px;
+  color: #0A3A75;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  cursor: pointer;
+  text-decoration: underline;
+  margin: 0;
+}
+
+.logineazotel .abs {
+  font-size: .7rem;
+  color: #193971;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.logineazotel .googleauth {
+  border-radius: 8px;
+  border: 1px solid #193971;
+  /* border-bottom: 2px solid #193971; */
+  /* border-left: 2px solid #193971; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 2.5rem;
+  padding: 1rem;
+  background: white;
+}
+
+/* .logineazotel .googleauth:hover {
+  background-color: #F1F1F1;
+  background-color: #193971;
+  color: #F1F1F1;
+} */
+
+.logineazotel .google {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logineazotel .glb {
+  margin-top: .4rem;
+  font-size: 1.2rem;
+  /* color: #193971; */
+  font-weight: 500;
+}
+
+
+/* back button */
+
+.back-btn{
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  padding: .1rem 1.5rem;
+  background-color: transparent;
+  border: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3rem;
+}
+ .back-btn:hover{
+  background-color: #193971;
+  color: #F1F1F1;
+  border: #193971;
+  transform: scale(1);
+ }
+
+.logineazotel span {
+  display: flex;
+  align-items: flex-start;
+}
+
+.logineazotel button {
+  width: 30%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .logineazotel {
+    height: 100%;
+    padding: 0;
+  }
+
+  .loginLeft {
+    padding: 0 1rem;
+  }
+
+
+  .loginmain p {
+    font-size: 17px;
+}
+
+  .loginRight {
+    padding: 0;
+
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .logineazotel {
+    height: 100%;
+    padding: 0;
+  }
+
+  .loginLeft {
+    padding: 0 1rem;
+  }
+
+
+  .loginmain p {
+    font-size: 17px;
+}
+
+  .loginRight {
+    padding: 0;
+
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+  .logineazotel {
+    height: 100%;
+    padding: 0;
+  }
+
+  .loginmain p {
+    font-size: 15px;
+  }
+
+  .loginLeft {
+    display: none;
+  }
+
+  .loginRight {
+    width: 100%;
+    padding: 0;
+    background-color: #F1F1F1;
+
+  }
+
+  .logineazotel .glb {
+    font-size: 14px;
+  }
+
+
+}
